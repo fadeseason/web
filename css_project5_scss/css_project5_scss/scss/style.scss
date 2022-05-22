@@ -82,10 +82,10 @@ body {
 	background-color: grey;
 	border-radius: 100px;
 	transition: all .05s ease-in-out;
-}
-.callme:hover {
-    transform: scale(1.11);
-    box-shadow: 0 0 5px black;
+	&:hover {
+    	transform: scale(1.11);
+    	box-shadow: 0 0 5px black;
+	}
 }
 .main{
 	/* border: 3px solid #000; */
@@ -132,10 +132,10 @@ body {
 	padding: 10px 10px;
 	margin:10px 0 0 200px;
 	transition: all .05s ease-in-out;
-}
-.btn:hover {
+	&:hover {
 	transform: scale(1.11);
 	box-shadow: 0 0 5px black;
+	}
 }
 .logo_png img {
 	padding: 30px;
