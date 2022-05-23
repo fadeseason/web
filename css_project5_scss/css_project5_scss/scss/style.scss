@@ -34,7 +34,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 body {
 	background: url('../img/dragon-scales.svg');
 	background-size: cover;
-	/* padding: 20px 20px; */
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 }
@@ -63,10 +62,10 @@ body {
 	            font-weight: bold;
 	            font-size: 26px;
 	            transition: all .07s ease-in-out;
-            }
-            a:hover {
+            &:hover {
                 opacity: 1;
             }
+	}
     }
 }
 .navbar_wrap {
@@ -88,7 +87,6 @@ body {
 	}
 }
 .main{
-	/* border: 3px solid #000; */
 	margin: 5px 5px;
 	height: 500px;
 }
@@ -160,11 +158,11 @@ body {
         font-weight: bold;
         font-size: 26px;
         transition: all .03s ease-in-out;
-    }
-    a:hover {
+    &:hover {
         transform: scale(1.11);
         box-shadow: 0 0 5px black;
         border-radius: 100px;
         background-color:  rgb(245, 196, 185);;
     } 
+}
 }
